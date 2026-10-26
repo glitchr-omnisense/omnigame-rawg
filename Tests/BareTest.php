@@ -5,7 +5,7 @@ namespace Omnigame\Rawg\Tests;
 use Omnigame\Rawg\RawgProvider;
 use Omnigame\Testing\BareTestCase;
 
-/** omnigame/rawg's classes load with omniscient/omnigame and Symfony's HTTP client contracts alone. */
+/** omnigame/rawg's classes load with omnisense/omnigame and Symfony's HTTP client contracts alone. */
 final class BareTest extends BareTestCase
 {
     protected static function entryClass(): string

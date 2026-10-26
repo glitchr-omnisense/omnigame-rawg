@@ -22,7 +22,7 @@ final class RawgFactory extends ProviderFactory
             'omnigame.factory_name' => 'rawg',
             'omnigame.factory_title' => 'RAWG',
             'omnigame.required_options' => ['api_key'],
-            'user_agent' => 'omnigame/1.0 (+https://github.com/glitchr-studio/omnigame)',
+            'user_agent' => 'omnigame/1.0 (+https://github.com/glitchr-omnisense/omnigame)',
             'api' => 'https://api.rawg.io/api',
         ]);
     }

@@ -1,6 +1,6 @@
 # omnigame/rawg
 
-[omniscient/omnigame](https://github.com/glitchr-studio/omnigame)'s RAWG, under any PHP host, with an
+[omnisense/omnigame](https://github.com/glitchr-omnisense/omnigame)'s RAWG, under any PHP host, with an
 API key: search (`/api/games?search=`) and a game's record by its RAWG number or slug
 (`/api/games/{id}`) with its description, release date, studios, platforms, genres, tags, RAWG and
 Metacritic scores, and the stores that sell it (`/api/games/{id}/stores`) - its Steam number,
