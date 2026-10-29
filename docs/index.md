@@ -119,10 +119,10 @@ services:
   a network error: `UnreachableException`;
 - a missing `api_key`: `InvalidConfigException` (`The "rawg" provider needs: api_key.`).
 
-> [!WARNING]
-> Known defect: a network error's message quotes the URL with the key (`... for
-> "https://api.rawg.io/api/games/portal-2?key=SECRET-KEY".`, seen in a container with no network,
-> 2026-10-27), where keys are expected to stay out of messages.
+The key travels in the query string, as RAWG takes it; a network error's message names the method
+and the path only, with the HTTP client's reason without the URL (`RAWG could not be reached for
+GET /api/games/portal-2: Could not resolve host: api.rawg.io.`, the core's `JsonClient`). The
+exception's previous, the HTTP client's, still quotes the URL.
 
 ## Verified, and not
 
